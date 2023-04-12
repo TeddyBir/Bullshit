@@ -1,0 +1,41 @@
+body{
+    background-color: yellow;
+    animation: animate 4s linear infinite;
+}
+@keyframes ani {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.b1{
+    display: flex;
+    justify-content: center;
+}
+
+.but1{
+    background: linear-gradient(90deg, powderblue, orange);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    animation: ani 3s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        filter: hue-rotate(0deg);
+        background-color: blueviolet;
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.cacao{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+
+
+}
